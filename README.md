@@ -4,6 +4,8 @@ When you type "bitcoinvanityburner" then "1bitcoinvenityburnerXXXXXXXT1jCa8" add
 We can assume no one has the private key of the "1bitcoinvenityburnerXXXXXXXT1jCa8" address. So this is custom vanity adderess to burn.
 
 ## To run
+$ npm install 
+$ sudo mongod
 $ grunt serve
 
 You can think this tool as enabling you to write 34 chars directly on blockchain with 0.00001097 = less than $ 0.005 dollar fee (transaction fee average 03/25/2015).

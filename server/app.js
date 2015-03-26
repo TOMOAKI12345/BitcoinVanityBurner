@@ -11,6 +11,11 @@ var express = require('express');
 var mongoose = require('mongoose');
 var config = require('./config/environment');
 
+// To deploy
+process.on('uncaughtException', function(err) {
+  console.log(err);
+});
+
 // Connect to database
 mongoose.connect(config.mongo.uri, config.mongo.options);
 
