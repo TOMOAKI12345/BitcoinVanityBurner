@@ -4,6 +4,8 @@
   "main": "server/app.js",
   "dependencies": {
     "express": "~4.0.0",
+    "bs58": "~2.0.1",
+    "bs58check" : "~1.0.5",
     "morgan": "~1.0.0",
     "body-parser": "~1.5.0",
     "method-override": "~1.0.0",
