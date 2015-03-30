@@ -198,7 +198,7 @@ module.exports = function (grunt) {
       debug: {
         script: 'server/app.js',
         options: {
-          nodeArgs: ['--debug-brk'],
+          nodeArgs: ['--debug-brk', '--watch'],
           env: {
             PORT: process.env.PORT || 9000
           },
@@ -541,7 +541,7 @@ module.exports = function (grunt) {
           ]
         }
       }
-    },
+    }
   });
 
   // Used for delaying livereload until after server has restarted

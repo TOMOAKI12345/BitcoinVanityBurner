@@ -8,8 +8,8 @@ var config = require('./environment');
 
 // When the user disconnects.. perform this
 function onDisconnect(socket) {
+  console.info('[%s] DISCONNECTED the user', socket.address);
 }
-
 // When the user connects.. perform this
 function onConnect(socket) {
   // When the client emits 'info', this listens and executes

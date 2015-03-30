@@ -45,7 +45,7 @@ exports.create = function(req, res) {
     customAddress += 'X';
   }
   while (customAddress.length > 34) {
-    customAddress.substr(0, -1)
+    customAddress = customAddress.slice(0, -1)
   }
 // hash length should be 50 bytes
   var CAdecodedhex = Buffer(base58.decode(customAddress)).toString('hex')
