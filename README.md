@@ -11,7 +11,7 @@ $ grunt serve
 
 You can think this tool as enabling you to write 34 chars directly on blockchain with 0.00001097 = less than $ 0.005 dollar fee (transaction fee average 03/25/2015).
 
-![alt tag](https://cloud.githubusercontent.com/assets/2216012/6845710/ba18aeb0-d3fa-11e4-82cd-84337e564bb7.png)
+![bitcoinvanityburner_screenshot](https://cloud.githubusercontent.com/assets/2216012/6999979/7406c130-dc53-11e4-84c4-a73dcd6197a8.png)
 
 ## Demo
 http://bitcoinvanityburner.com/
